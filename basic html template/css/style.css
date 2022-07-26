@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding:0;
+}
+
+.nav{
+    width: 100%;
+    height:80px;
+    background:#937DC2;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    color:#fff;
+    text-decoration:none;
+}
+ a{
+    color: #fff;
+    text-decoration: none;
+    display:flex;
+    justify-content:right;
+    padding-block: 1rem;
+    display: inline-block
+}
+
+.hero{
+    width:49.85%;
+    height:510px;
+    background:#C689C6;
+    margin-top:90px;
+    display:inline-block; 
+}
+
+main{
+    width:100%;
+    height: 500px;
+    display:inline-block;
+    margin-top: 1rem;
+}
+
+main .articels{
+    width:69%;
+    height:400px;
+    background:#937DC2;
+    display:inline-block;
+}
+
+main .sidestory{
+    width: 30%;
+    height:400px;
+    background: #FCC5C0;
+    display:inline-block;
+} 
+
+section.trending {
+    width: 100%;
+    height: 250px;
+    margin-block: 5px;
+    overflow: hidden;
+    margin-top:2rem;
+    text-decoration: solid;
+    padding-top:1rem;
+}
+
+.latestnews div{
+    margin-top:-6rem;
+    width:334px;
+    height:400px;
+    background:#E8A0BF;
+    display:inline-block;  
+    padding: 2rem;
+    font-size:1rem;
+    text-decoration: solid;
+    color:#FFFF
+
+}
+
+section.justin{
+    width: 100%;
+    height: 300px;
+    margin-block: 5px;
+    background: #937DC2;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+.trending div {
+    padding-top: 4rem;
+    width: 188.9px;
+    height: 200px;
+    background: #E8A0BF;
+    display: inline-block;
+    margin-top: -12rem;
+    color:white;
+    font-size: 1rem
+}
+
+section.adds{
+    width:100%;
+    height: 100px;
+    background: #4a2048;
+    margin-top:-6rem;
+    font-size: 1rem
+}
+
+footer{
+    width:100%;
+    height:200px
+}
+
+footer div {
+    width: 334px;
+    height: 200px;
+    background: #704f5e;
+    display: inline-block;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: solid;
+    padding: -1rem;
+}
+section .copy{
+    width:100%;
+    height:100px;
+    background:#291027;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    display:block;
+    position:relative;
+    bottom:0;
+    top:0;
+    margin-top: 2rem;
+}
+
+
